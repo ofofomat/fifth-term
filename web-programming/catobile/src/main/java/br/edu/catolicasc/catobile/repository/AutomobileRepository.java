@@ -1,4 +1,7 @@
 package br.edu.catolicasc.catobile.repository;
 
-public class AutomobileRepository {
+import org.springframework.data.repository.CrudRepository;
+import br.edu.catolicasc.catobile.model.Automobile;
+
+public interface AutomobileRepository extends CrudRepository<Automobile, Long>{
 }
